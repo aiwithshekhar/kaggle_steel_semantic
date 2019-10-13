@@ -22,7 +22,7 @@ from albumentations.pytorch import ToTensor
 pd.set_option('display.max_columns', None)
 # donot print the warning
 warnings.filterwarnings("ignore")
-
+print ('visualization steel')
 # *****************to reproduce same results fixing the seed and hash*******************
 seed = 69
 random.seed(seed)
