@@ -32,7 +32,7 @@ torch.cuda.manual_seed(seed)
 torch.manual_seed(seed)
 torch.backends.cudnn.deterministic = True
 # *****************to reproduce same results fixing the seed and hash*******************
-
+print ('HELLO')
 # *****************create a 4d mask of 4 error classes in an array*********************
 def make_mask(row_id, df):
     # print (df.head())
